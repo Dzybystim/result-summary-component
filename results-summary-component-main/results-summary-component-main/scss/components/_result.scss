@@ -1,7 +1,3 @@
-@import 'utils/colors';
-@import 'utils/fonts';
-@import 'utils/textSize';
-
 
 .result {
     background-image: $brand-gradient;
@@ -9,5 +5,5 @@
 
 .result__header {
     font-family:'HankenGrotesk' ;
-    font-size: 16px;
+    font-size: $headingXL;
 }
