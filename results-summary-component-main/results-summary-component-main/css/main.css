@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format(truetype);
+  font-weight: 100 900;
+}
+.result {
+  background-image: linear-gradient(to bottom, #6943FF, #2F2CE9);
+}
+
+.result__header {
+  font-family: "HankenGrotesk";
+}/*# sourceMappingURL=main.css.map */
