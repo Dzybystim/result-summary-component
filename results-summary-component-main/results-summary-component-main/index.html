@@ -14,10 +14,13 @@
 </head>
 <body>
 <header>
-  <div class="result">
+  <div class="result result--container">
     <h1 class="result__header">Your Result</h1>
      <div class="result__grade">
-        <span class="result__grade-number">76 of 100</span>
+        <div>
+          <div class="result__grade-header">76</div>
+          <div class="result__grade-scale">of 100</div>
+        </div>
      </div>
      <div class="result__specification">
       <h2 class="result__specification-header">Great</h2>
@@ -26,41 +29,49 @@
   </div>
 </header>
 <main>
-  <div>
-    <h2>Summary</h2>
-    <div>
-      <ul>
-        <li>
-          <svg></svg>
-          <h3>Reaction</h3>
-          <p>80 / 100</p>
+  <div class="summary summary--container">
+    <h2 class="summary__header">Summary</h2>
+    <div class="summary__box">
+      <ul class="summary__indicators">
+        <li class="summary__indicator summary__indicator--reaction">
+            <svg class="summary__indicator-logo">
+              <use href="./assets/images/sprite.svg#reaction"></use>
+            </svg>
+            <h3 class="summary__indicator-header summary__indicator-header--reaction">Reaction</h3>
+          <p class="summary__indicator-scale"><span class="summary__indicator-result">80</span> / 100</p>
         </li>
-        <li>
-          <svg></svg>
-          <h3>Memory</h3>
-          <p>92 / 100</p>
+        <li class="summary__indicator summary__indicator--memory">
+            <svg class="summary__indicator-logo">
+              <use href="./assets/images/sprite.svg#memory"></use>
+            </svg>
+            <h3 class="summary__indicator-header summary__indicator-header--memory">Memory</h3>
+          <p class="summary__indicator-scale"><span class="summary__indicator-result">92</span> / 100</p>
         </li>
-        <li>
-          <svg></svg>
-          <h3>Verbal</h3>
-          <p>61 / 100</p>
+        <li class="summary__indicator summary__indicator--verbal">
+            <svg class="summary__indicator-logo">
+              <use href="./assets/images/sprite.svg#verbal"></use>
+            </svg>
+            <h3 class="summary__indicator-header summary__indicator-header--verbal">Verbal</h3>
+          <p class="summary__indicator-scale"><span class="summary__indicator-result">61</span> / 100</p>
         </li>
-        <li>
-          <svg></svg>
-          <h3>Visual</h3>
-          <p>72 / 100</p>
+        <li class="summary__indicator summary__indicator--visual">
+            <svg class="summary__indicator-logo">
+              <use href="./assets/images/sprite.svg#visual"></use>
+            </svg>
+            <h3 class="summary__indicator-header summary__indicator-header--visual">Visual</h3>
+          <p class="summary__indicator-scale"><span class="summary__indicator-result">72</span> / 100</p>
         </li>
       </ul>
     </div>
     <div>
-      <button type="button">Continue</button>
+      <button type="button" class="button">Continue</button>
     </div>
   </div>
 </main>
 <footer>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="attribution__challenge">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></div>
+    <div class="attribution__coded">Coded by <a href="https://github.com/Dzybystim" target="_blank">Dima Shapowal</a></div>
   </div>
 </footer>
 </body>

@@ -1,0 +1,30 @@
+.attribution {  
+        background-blend-mode: screen;
+        background:
+            linear-gradient(limegreen, transparent),
+            linear-gradient(90deg, skyblue, transparent),
+            linear-gradient(-90deg, coral, transparent);
+
+        padding: 16px;
+
+        &__challenge {
+          margin-left: auto;
+          margin-right: auto;
+
+          font-family: $mainFont;
+          color: black;
+          font-weight: 700;
+          font-size: $mobileBodyText;
+        }
+
+        &__coded {
+          margin-left: auto;
+          margin-right: auto;   
+
+          font-family: $mainFont;
+          color: black;
+          font-weight: 700;
+          font-size: $mobileBodyText;
+        }
+
+}
