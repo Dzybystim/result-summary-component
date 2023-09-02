@@ -14,3 +14,7 @@
 
     cursor: pointer;
 }
+
+.button:hover {
+    background-image: $brand-gradient ;
+}
